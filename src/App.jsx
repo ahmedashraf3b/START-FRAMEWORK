@@ -10,7 +10,7 @@ import NotFound from './Components/NotFound/NotFound';
 
 let x = createBrowserRouter([
   {
-    path:'',
+    path:'START-FRAMEWORK',
     element:<Layout/>,children:[
       {index:true,element:<Home/>},
       {path:'about',element:<About/>},

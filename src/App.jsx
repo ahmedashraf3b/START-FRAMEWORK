@@ -16,7 +16,7 @@ let x = createBrowserRouter([
       {path:'about',element:<About/>},
       {path:'protfolio',element:<Protfolio/>},
       {path:'contact',element:<Contact/>},
-      {path:'START-FRAMEWORK/*',element:<NotFound/>},
+      {path:'*',element:<NotFound/>},
     ]
   }
 ])

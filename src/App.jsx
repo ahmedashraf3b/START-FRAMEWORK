@@ -12,11 +12,11 @@ let x = createBrowserRouter([
   {
     path:'START-FRAMEWORK',
     element:<Layout/>,children:[
-      {index:true,element:<Home/>},
-      {path:'about',element:<About/>},
-      {path:'protfolio',element:<Protfolio/>},
-      {path:'contact',element:<Contact/>},
-      {path:'*',element:<NotFound/>},
+      {path:'START-FRAMEWORK',element:<Home/>},
+      {path:'START-FRAMEWORK/about',element:<About/>},
+      {path:'START-FRAMEWORK/protfolio',element:<Protfolio/>},
+      {path:'START-FRAMEWORK/contact',element:<Contact/>},
+      {path:'START-FRAMEWORK/*',element:<NotFound/>},
     ]
   }
 ])
